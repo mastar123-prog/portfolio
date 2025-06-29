@@ -1,103 +1,212 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-    section {
-      margin: 40px 0;
-    }
-    .projects img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-    .project {
-      margin-bottom: 30px;
-    }
-    .project h2 {
-      font-size: 2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #333;
-      color: #fff;
-    }
-  </style>
+  <title>Subindev K | Coding Educator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <!-- Navigation -->
   <header>
-    <h1>My Portfolio</h1>
-    <h2>EVERYTHING IS BLANK FOR A REASON<h2>
-    <p>Welcome to my coding portfolio. Below you'll find some of my work and a bit about me.</p>
+    <img src="profile1.JPG" alt="Subindev K" class="profile-image">
+    <h1>Subindev K </h1><br><h1>| Full Stack Developer | Coding Educator | Curriculum Developer | STEM Education Researcher</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="container">
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-box">
+      <p>I am a professional Full Stack Developer and passionate educator with 5 years of Experience in Teaching Coding. I have expeience in working Web development, Python, Java, C, C++, Flutter and React. Moreover i have Experience in working the block based languages like Scratch, Code.org, Thunkable,MIT etc. 
+    </div>
+        </p> <br>
+       
+  </section>
 
-    <!-- About Me Section -->
-    <section id="about-me">
-      <h2>About Me</h2>
-      <p>soooooo.... I'm a web developer with a prefrence for memes and coding. I specialize in HTML, CSS, and JavaScript, and I love to make fun and functional websites.</p>
-      <img src="https://via.placeholder.com/800x400.png?text=Meme+Placeholder" alt="https://plaky.com/blog/programming-memes/" />
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to My Coding Classes!</h2>
+    <p>I will be teaching Python, Java, JavaScript, C++, and more. Let's code your future!</p>
+    <a href="#contact" class="cta">Enroll in a Course</a>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <h2>meme</h2>
-      
-      <!-- Project 1 -->
-      <div class="project">
-        <h3>meme 1</h3>
-        <p>how Java works:</p>
-        <img src=Screenshot 2025-06-24 175005.png" alt="https://plaky.com/blog/programming-memes/"/>
+<!-- Courses Section -->
+  <!-- Portfolio Section for Programming Languages -->
+  <section id="courses">
+    <h2>Languages I Teach</h2>
+    
+    <!-- Gallery Wrapper -->
+    <div class="portfolio-gallery">
+      <!-- Language 1 -->
+      <div class="language-item">
+        <img src="python.png" alt="Python">
+        <p>Python</p>
       </div>
       
-      <!-- Project 2 -->
-      <div class="project">
-        <h3>Project 2: Responsive Portfolio</h3>
-        <p>This is the responsive version of my portfolio built using HTML and CSS. It adapts to all screen sizes so you can view it on any device.</p>
-        <img src="https://via.placeholder.com/800x400.png?text=Meme+Placeholder+2" alt="Responsive Portfolio" />
+      <!-- Language 2 -->
+      <div class="language-item">
+        <img src="js.jpeg" alt="JavaScript">
+        <p>JavaScript</p>
       </div>
-
-      <!-- Project 3 -->
-      <div class="project">
-        <h3>Project 3: Meme Blog</h3>
-        <p>A simple blog that allows users to post memes, vote on them, and comment. Built with HTML, CSS, and JavaScript.</p>
-        <img src="https://via.placeholder.com/800x400.png?text=Meme+Placeholder+3" alt="Meme Blog" />
+  
+      <!-- Language 3 -->
+      <div class="language-item">
+        <img src="java.jpg" alt="Java">
+        <p>Java</p>
       </div>
-    </section>
+      
+      <!-- Language 4 -->
+      <div class="language-item">
+        <img src="c.webp" alt="C">
+        <p>C</p>
+      </div>
+  
+      <!-- Language 5 -->
+      <div class="language-item">
+        <img src="cpp.jpg" alt="C++">
+        <p>C++</p>
+      </div>
+  
+      <!-- Language 6 -->
+      <div class="language-item">
+        <img src="web.webp" alt="Webdevelopment">
+        <p>Webdevelopment</p>
+      </div>
+  
+      <!-- Language 7 -->
+      <div class="language-item">
+        <img src="flutter.png" alt="Flutter">
+        <p>Flutter</p>
+      </div>
+  
+      <!-- Language 8 -->
+      <div class="language-item">
+        <img src="react.png" alt="React">
+        <p>React</p>
+      </div>
+      <!-- Add more language items as needed -->
+    </div>
+  </section>
 
-  </div>
 
+  <!-- Portfolio Section -->
+<section id="highlights">
+    <h2>Highlights</h2><br>
+    <div class="portfolio-gallery">
+      <div class="work-item" onclick="showPopup('Please contact me for more details')">
+        <img src="alexa.jpg" alt="Project 1">
+        <p>Project 1: Alexa</p>
+      </div>
+      <div class="work-item" onclick="showPopup('This is a simple Sign detection project in which the computer will detect the letters according to our hand symbols. To know more about it. Please contact me')">
+        <img src="sign.png" alt="Project 2">
+        <p>Project 2: Sign Detection</p>
+      </div>
+      <div class="work-item" onclick="showPopup('This project will help to create your own browser. To know more about it. Please contact me')">
+        <img src="browser.png" alt="Project 3">
+        <p>Project 3: Browser</p>
+      </div>
+      <div class="work-item" onclick="showPopup('I would like to know more')">
+        <img src="object.png" alt="Project 3">
+        <p>Project 4: Object Detection</p>
+      </div>
+      <div class="work-item" onclick="showPopup('I would like to know more')">
+        <img src="nlp.jpeg" alt="Project 3">
+        <p>Project 5: NLP </p>
+      </div>
+      <div class="work-item">
+        <img src="mask.jpeg" alt="Project 3">
+        <p>Project 6: Mask Detection </p>
+      </div>
+      <!-- Add more work items as needed -->
+    </div>
+  </section>
+
+  <script>
+    function showPopup(message) {
+        alert(message);
+    }
+</script>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What My Students Say</h2>
+    <blockquote>
+      "Subindev is an amazing instructor! His lessons are clear, and I was able to learn Python in just a few weeks!"
+      <cite>– Harnek, Student</cite>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  
+    <!-- Success Message -->
+    <p id="formResponse"></p>
+  </section>
+  
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent the form from refreshing the page
+
+        var formData = new FormData(this); // Get the form data
+
+        fetch('https://script.google.com/macros/s/AKfycbzq1R3oXjzqsco-O2-e-8vGjPpNLCvgmiOMxTnE6ymjXDb5nj04OxC_u2Mv8xsH99Vo/exec', { // Replace with your script URL
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json',
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json(); // Parse the response as JSON
+        })
+        .then(data => {
+            if (data.result === 'success') {
+                document.getElementById('formResponse').innerText = 'Your message has been sent!';
+                document.getElementById('contactForm').reset(); // Reset the form
+                setTimeout(function() {
+                        location.reload(); // Reload the page after a brief delay
+                    }, 2000);
+            } else {
+                document.getElementById('formResponse').innerText = 'There was an error sending your message: ' + (data.message || 'Unknown error');
+            }
+        })
+        .catch(error => {
+            document.getElementById('formResponse').innerText = 'Message send successfully ';
+            setTimeout(function() {
+                        location.reload(); // Reload the page after a brief delay
+                    }, 2000);
+            console.error('Error:', error);
+        });
+    });
+</script>
+  
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
-  </footer>
-
-</body>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/subindev-k-4ab3271b4/" target="_blank">LinkedIn</a> | <a href="https://github.com/Subinkalarikkal" target="_blank">GitHub</a></p>
+    <p>&copy; 2024 Subindev K. All rights reserved.</p>
+  </footer> 
 </html>
