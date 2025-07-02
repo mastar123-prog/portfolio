@@ -35,7 +35,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <h2>Welcome to My Coding Classes!</h2>
-    <p>I will be teaching Python, Java, JavaScript, C++, and more. Let's code your future!</p>
+    <p>I know Python, Java, JavaScript, C++, and more. Let's code your future!</p>
     <a href="#contact" class="cta">Enroll in a Course</a>
   </section>
 
@@ -130,12 +130,6 @@
     </div>
   </section>
 
-  <script>
-    function showPopup(message) {
-        alert(message);
-    }
-</script>
-
   <!-- Testimonials Section -->
   <section id="testimonials">
     <h2>What My "investors" Say</h2>
@@ -165,6 +159,9 @@
   </section>
   
   <script>
+    function showPopup(message) {
+        alert(message);
+    }
     document.getElementById('contactForm').addEventListener('submit', function(e) {
         e.preventDefault(); // Prevent the form from refreshing the page
 
@@ -202,11 +199,22 @@
             console.error('Error:', error);
         });
     });
+
+    function displayCurrentYear() {
+        const now = new Date();
+        const currentYear = now.getFullYear();
+        const yearElement = document.getElementById('yearDisplay');
+        if (yearElement){
+          yearElement.textContent = currentYear;
+        }
+    }
+    
+    displayCurrentYear();  
 </script>
   
   <!-- Footer -->
   <footer>
     <p>Connect with me on <a href="https://github.com/mastar123-prog" target="_blank">GitHub</a></p>
-    <p>&copy; 2024 Sahas P. All rights reserved.</p>
+    <p>&copy; <span id="yearDisplay"></span> Sahas P. All rights reserved.</p>
   </footer> 
 </html>
